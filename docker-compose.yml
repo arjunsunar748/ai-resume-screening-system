@@ -1,0 +1,21 @@
+
+
+services:
+  backend:
+    build: ./backend
+    container_name: ats_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - PROJECT_NAME=AI Resume Screening & ATS System
+      - API_V1_STR=/api/v1
+    restart: always
+
+  frontend:
+    build: ./frontend
+    container_name: ats_frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: always
