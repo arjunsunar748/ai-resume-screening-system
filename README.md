@@ -359,7 +359,7 @@ Mid-West University, Nepal
 
 GitHub: https://github.com/arjunsunar748
 
-LinkedIn: https://www.linkedin.com/
+LinkedIn: https://www.linkedin.com/in/arjun-sunar-428331348/
 
 ---
 
